@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>5 Botões</title>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+
+        <script>           
+            $(function(){
+                $('#red').on('click', function(){
+                    $('body').css('background-color', 'red')
+                })
+                
+                $('#black').on('click', function(){
+                    $('body').css('background-color', 'black')  
+                })
+
+                $('#green').on('click', function(){
+                    $('body').css('background-color', 'green')  
+                })
+
+                $('#blue').on('click', function(){
+                    $('body').css('background-color', 'blue')  
+                })
+
+                $('#purple').on('click', function(){
+                    $('body').css('background-color', 'purple')  
+                })
+            })
+        </script>
+
+        <button id="red">Vermelho</button>
+        <button id="black">Preto</button>
+        <button id="green">Verde</button>
+        <button id="blue">Azul</button>
+        <button id="purple">Roxo</button>
+        
+    </body>
+</html>

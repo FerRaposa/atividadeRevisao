@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alerta</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+    </head>
+    <body>
+
+        <script>            
+            $(function(){
+                
+                $('#meclique').on('click',function() {
+                  
+                  let nome = $('#campo').val(); 
+
+                  alert('Oi, ' + nome); 
+                });
+
+            })
+        </script>
+
+        <label>Digite seu nome:</label>
+        <input type="text" id="campo">
+
+        <button id="meclique">Ok</button>
+        
+    </body>
+</html>
